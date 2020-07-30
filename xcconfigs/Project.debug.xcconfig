@@ -1,0 +1,22 @@
+//
+//  Config.debug.xcconfig
+//  research_xcconfig
+//
+//  Created by motoki kawakami on 2020/07/30.
+//  Copyright © 2020 mothule. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Project.base.xcconfig"
+
+//:configuration = Debug
+ONLY_ACTIVE_ARCH = YES
+DEBUG_INFORMATION_FORMAT = dwarf
+ENABLE_TESTABILITY = YES
+GCC_DYNAMIC_NO_PIC = NO
+GCC_OPTIMIZATION_LEVEL = 0
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE

@@ -1,5 +1,5 @@
 //
-//  Config.release.xcconfig
+//  Config.base.xcconfig
 //  research_xcconfig
 //
 //  Created by motoki kawakami on 2020/07/30.
@@ -8,3 +8,8 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
+
+TARGETED_DEVICE_FAMILY = 1,2
+INFOPLIST_FILE = research_xcconfig/Info.plist
+PRODUCT_BUNDLE_IDENTIFIER = jp.mothule.research-xcconfig
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
